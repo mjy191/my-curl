@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "mjy191/my-log": "1.*.*",
+        "mjy191/my-logs": "1.*.*",
         "mjy191/enum": "1.*.*"
     }
 }
