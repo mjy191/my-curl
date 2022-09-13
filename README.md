@@ -36,3 +36,8 @@ grep aaaaaa *
 2022082207.log:2022-08-22 07:24:50 uri[/api/order/payInfo?sign=xxx] logid[aaaaaa] response[{"code":1,"msg":"success","data":{"appId":"xxxx","timeStamp":"xxxx","nonceStr":"xxxxxx","package":"prepay_id=xxxxx","signType":"RSA","paySign":"xxxx"},"timestamp":xxxx}]
 
 ```
+
+### 1.4 安装
+```
+composer require mjy191/my-curl
+```
