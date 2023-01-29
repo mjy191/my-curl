@@ -23,6 +23,7 @@ class MyCurl
      */
     public static function send($url, $method = 'get', $params = '', array $header = null, $resLog = true, $reqLog = true, $errLog = true)
     {
+        $method = strtolower($method);
         $reqLog && (MyLogs::write('curl', "url[{$url}] method[{$method}] params[" . MyLogs::toString($params) . "] header[" . MyLogs::toString($header) . "]"));
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
